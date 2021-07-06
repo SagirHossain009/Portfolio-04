@@ -1,0 +1,190 @@
+body *{
+	margin: 0;
+	padding: 0;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, span, input{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+/*************************
+ end default setup
+*************************/
+
+/*****************************************
+ Header section css code start from here
+*****************************************/
+
+.header{
+	padding: 32px 0px;
+}
+
+.navbar{
+	display: flex;
+}
+
+/*****************************************
+ Header section css code end from here
+*****************************************/
+
+/*****************************************
+ banner section css code start from here
+*****************************************/
+
+.banner{
+	padding: 30px 0;
+}
+
+.b-text{
+	text-align: center;
+}
+
+.b-text h2{
+	color: #015761;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+
+.b-text p{
+	text-align: justify;
+	font-size: 17px;
+	margin-bottom: 20px;
+	margin-left: 35px;
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.b-text-1 p{
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 20px;
+	margin-left: 35px;
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.btn{
+	text-align: center;	
+}
+
+.btn a button{
+	text-align: center;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background: #F7DC4F;
+    color: #015761;
+    coursor: pointer;
+}
+
+/*****************************************
+ Banner section css code end from here
+*****************************************/
+
+/*****************************************
+ projection section css code start from here
+*****************************************/
+
+.project{
+	padding: 40px 0;
+}
+
+.p-text-img{
+
+}
+
+.p-text-img h1{
+	text-align: center;
+	margin-bottom: 50px;
+    margin-top: 10px;
+    color: #015761;
+    font-size: 60px;
+}
+
+.p-text-img img{
+	width: 100%;
+	height: 75vh;
+}
+
+/*****************************************
+ projection section css code end from here
+*****************************************/
+
+/*****************************************
+ gallery section css code end from here
+*****************************************/
+
+.gallery{
+	padding: 30px 0;
+}
+
+.g-text{
+	text-align: center;
+	margin-bottom: 50px;
+    margin-top: 10px;
+    color: #015761;
+    font-size: 40px;
+}
+
+.g-pics{
+	display: flex;
+}
+
+.g-pics ul li{
+	list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+.g-pics-1 ul li{
+	list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+/*****************************************
+ gallery section css code end from here
+*****************************************/
+
+/*****************************************
+ footer section css code end from here
+*****************************************/
+
+.footer{
+	padding: 30px 0;
+}
+
+.footer .container{
+	display: flex;
+}
+
+.f-img{
+	display: flex;
+}
+
+.f-right .f-text{
+	display: inline-block;
+}
+
+.texts h1{
+	color: #F7DC4F;
+	font-size: 80px;
+}
+
+/*****************************************
+ footer section css code end from here
+*****************************************/
